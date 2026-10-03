@@ -59,4 +59,5 @@ wordCounts.collect().foreach(println)
 ~~~
 
 ### Output
+<img width="1405" height="797" alt="image" src="https://github.com/user-attachments/assets/154bd9a1-3743-4c8e-9c43-a6bbb9691f9c" />
 
