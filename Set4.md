@@ -133,4 +133,6 @@ Hive> DROP VIEW v1;
 ~~~
 
 ### Output
-write the same in boxes.
+write the same in for all the operations.
+<img width="1548" height="761" alt="image" src="https://github.com/user-attachments/assets/a33692d5-4c51-41e3-bd20-e5c43cf07f57" />
+
