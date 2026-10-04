@@ -11,7 +11,7 @@ Description : Pig Latin is a high-level data flow scripting language used with A
 **Step-3:** Type the following commands in the Grunt shell.
 
 ```text
-inputline = LOAD '/home/cloudera/Desktop/task6a.txt' USING PigStorage('\t') AS (data:chararray);
+inputline = LOAD '/home/cloudera/Desktop/task6a.txt' AS data;
 words = FOREACH inputline GENERATE FLATTEN(TOKENIZE(data)) AS word;
 filtered_words = FILTER words BY word MATCHES '\\w+';
 word_groups = GROUP filtered_words BY word;
