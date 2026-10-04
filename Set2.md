@@ -86,7 +86,7 @@ big data analytics lab
 Run the following Pig commands in the Grunt shell:
 
 ~~~text
-grunt> data = LOAD 'inputpig.txt' AS (name:chararray);
+grunt> data = LOAD 'inputpig.txt' AS name;
 grunt> upper_data = FOREACH data GENERATE ToUpperCase(name);
 grunt> DUMP upper_data;
 ~~~
